@@ -1,0 +1,22 @@
+{
+    "name": "tanya22222222554646543469/pop-it-mvc",
+    "description": "Simple mvc framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tanya Gubar",
+            "email": "taniagubar5@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+    "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
