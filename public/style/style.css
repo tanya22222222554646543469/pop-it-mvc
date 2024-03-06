@@ -1,0 +1,277 @@
+* {
+    * {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        height: 75px;
+        width: 1440px;
+        background-color: rgba(129, 127, 127, 1);
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        color: rgba(255, 255, 255, 1);
+        margin-left: 20px;
+        padding-top: 16px;
+    }
+    .img_user {
+        width: 51px;
+        height: 48px;
+        margin-top: 1%;
+        margin-right: 3%;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    .cont {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* Для входа (login) */
+    .login {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+    }
+    .log_in {
+        background-color: rgba(129, 127, 127, 1);
+        width: 490px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px 30px 0 0;
+    }
+    .text1 {
+        color: rgba(255, 255, 255, 1);
+        padding-top: 8px;
+    }
+    .input_data {
+        background-color: rgba(179, 178, 178, 1);
+        width: 490px;
+        height: 300px;
+        border-radius: 0 0 30px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input_data1 {
+        color: rgba(255, 255, 255, 1);
+        padding-left: 40px;
+        background-color: rgba(195, 193, 193, 1);
+        width: 400px;
+        height: 45px;
+        margin-top: 30px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+    }
+    .to_come_in {
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(129, 127, 127, 1);
+        width: 280px;
+        height: 55px;
+        margin-top: 30px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* стр меню (menu) */
+    .menu_deconat {
+        background-color: rgba(139, 139, 139, 1);
+        width: 436px;
+        height: 287px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-left: 35%;
+    }
+    .menu {
+        height: 40px;
+        width: 380px;
+        background-color: rgba(182, 181, 181, 1);
+        color: rgba(255, 253, 253, 1);
+        border-radius: 30px;
+        margin-block: 8px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+    }
+
+    /* стр дисциплин (disciplines) */
+    .disciplines {
+        background-color: rgba(139, 139, 139, 1);
+        color: rgba(255, 253, 253, 1);
+        padding-top: 10px;
+        width: 436px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .disciplines_menu {
+        height: 40px;
+        width: 380px;
+        background-color: rgba(182, 181, 181, 1);
+        color: rgba(255, 253, 253, 1);
+        border-radius: 30px;
+        margin-block: 8px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+    }
+
+    /* стр дисциплины с посещаемостью (disciplines_attendance)*/
+    .disciplines_1 {
+        background-color: rgba(139, 139, 139, 1);
+        color: rgba(255, 253, 253, 1);
+        padding-top: 10px;
+        width: 135px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .disciplines_menu_1 {
+        height: 40px;
+        width: 95px;
+        background-color: rgba(182, 181, 181, 1);
+        color: rgba(255, 253, 253, 1);
+        border-radius: 0 30px 30px 0;
+        margin-block: 8px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+    }
+    .disciplines_menu_vibor {
+        background-color: rgba(223, 222, 222, 1);
+        color: rgba(103, 102, 102, 1);
+        border: 5px solid rgba(103, 102, 102, 1);
+        height: 40px;
+        width: 95px;
+        border-radius: 0 30px 30px 0;
+        margin-block: 8px;
+        padding-left: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .attendance_1 {
+        display: flex;
+    }
+    .groups_choice_1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgba(156, 156, 156, 1);
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .group_student_1 {
+        background-color: rgba(217, 217, 217, 1);
+        color: rgba(255, 253, 253, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 45px;
+        margin-top: 10px;
+        border-radius: 30px;
+    }
+    .attendance_month_1 {
+        color: rgba(156, 156, 156, 1);
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    table {
+        width: 880px;
+        margin-top: 1%;
+    }
+
+    /* стр группы (groups) */
+    .group {
+        background-color: rgba(139, 139, 139, 1);
+        color: rgba(255, 253, 253, 1);
+        padding-top: 10px;
+        width: 436px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .group_menu {
+        height: 40px;
+        width: 380px;
+        background-color: rgba(182, 181, 181, 1);
+        color: rgba(255, 253, 253, 1);
+        border-radius: 30px;
+        margin-block: 8px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+    }
+
+    /* стр группы студентов (group_students) */
+    .groups_choice_2 {
+        background-color: rgba(139, 139, 139, 1);
+        color: rgba(255, 253, 253, 1);
+        padding-top: 10px;
+        width: 135px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .group_student_2 {
+        height: 40px;
+        width: 95px;
+        background-color: rgba(182, 181, 181, 1);
+        color: rgba(255, 253, 253, 1);
+        border-radius: 0 30px 30px 0;
+        margin-block: 8px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+    }
+    .group_student_vibor_2 {
+        background-color: rgba(223, 222, 222, 1);
+        color: rgba(103, 102, 102, 1);
+        border: 5px solid rgba(103, 102, 102, 1);
+        height: 40px;
+        width: 95px;
+        border-radius: 0 30px 30px 0;
+        margin-block: 8px;
+        padding-left: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .students {
+        display: flex;
+    }
+    .student_groups {
+        color: rgba(103, 102, 102, 1);
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .student_details {
+        color: rgba(255, 254, 254, 1);
+        background-color: rgba(182, 181, 181, 1);
+        height: 35px;
+        width: 1060px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        padding-left: 2%;
+        margin-top: 1%;
+    }
+}
