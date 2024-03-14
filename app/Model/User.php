@@ -33,6 +33,7 @@ class User extends Model implements IdentityInterface
        return self::where('id', $id)->first();
    }
 
+
    //Возврат первичного ключа
    public function getId(): int
    {
